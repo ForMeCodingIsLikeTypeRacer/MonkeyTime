@@ -5,33 +5,37 @@
 </head>
 <body>
 
-<!-- TODO: Buttons will only play chimpanzee FIX -->
-<!-- TODO: Make sounds loop forever -->
-<!-- TODO: Make a "give banana" system to stop the sound -->
+
 
 <h2><center>Compare Your Voice To A Monkeys!</center></h2>
 
 
 <img src="Pics/chimpanzee1.jpeg" alt="Chimpanzee" style="width:400px;height:400px">
-<img src="Pics/weakhuman.png" alt="weakhuman" style="width:400px;height:400px;margin-left:750px">
-<audio id=audio1 src="Sounds/chimpanzeesound1.mp3"></audio>
+<input type="image" src ="Pics/banana.png" class = "btTxt submit" id = "banana1" alt="Banana" style="width:50px;height:50px" onclick="stop(audio1)"/>
+<audio id="audio1" src="Sounds/chimpanzeesound1.mp3"></audio>
+<img src="Pics/weakhuman.png" alt="weakhuman" style="width:400px;height:400px;margin-left:700px">
 <input type="button" value="FIGHT" onclick="play(audio1)">
 
 <br>
 <br>
 
 <img src="Pics/Gorilla1.jpeg" alt="Gorilla" style="width:400px;height:400px">
-<img src="Pics/weakhuman.png" alt="weakhuman" style="width:400px;height:400px;margin-left:750px">
-<audio id=audio2 src="Sounds/gorillasound1.mp3"></audio>
+<input type="image" src ="Pics/banana.png" class = "btTxt submit" id = "banana2" alt="Banana" style="width:50px;height:50px" onclick="stop(audio2)"/>
+<img src="Pics/weakhuman.png" alt="weakhuman" style="width:400px;height:400px;margin-left:700px">
+<audio id="audio2" src="Sounds/gorillasound1.mp3"></audio>
 <input type="button" value="FIGHT" onclick="play(audio2)">
 
 <br>
 <br>
 
 <img src="Pics/Orangutan1.jpeg" alt="Orangutan" style="width:400px;height:400px">
-<img src="Pics/weakhuman.png" alt="weakhuman" style="width:400px;height:400px;margin-left:750px">
-<audio id=audio3 src="Sounds/orangutansound1.mp3"></audio>
+<input type="image" src ="Pics/banana.png" class = "btTxt submit" id = "banana3" alt="Banana" style="width:50px;height:50px" onclick="stop(audio3)"/>
+<img src="Pics/weakhuman.png" alt="weakhuman" style="width:400px;height:400px;margin-left:700px">
+<audio id="audio3" src="Sounds/orangutansound1.mp3"></audio>
 <input type="button" value="FIGHT" onclick="play(audio3)">
+
+<br>
+<br>
 
 <script src="monkeytechnologies.js"></script>
 </body>
